@@ -25,6 +25,10 @@ body {
   font-size: 1.6em;
 }
 
+.header-content nav {
+  margin-top: 5px;
+}
+
 .header-content .nav-item {
   margin-left: 10px;
   margin-right: 10px;
