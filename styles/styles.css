@@ -25,17 +25,18 @@ body {
   text-decoration: none;
   font-size: 1.6em;
 }
-.header-section .header-content .nav-bar {
+.header-section .header-content .nav-bar ul {
   margin-top: 5px;
+  display: flex;
 }
-.header-section .header-content .nav-bar .nav-item {
+.header-section .header-content .nav-bar ul .nav-item {
   margin-left: 10px;
   margin-right: 10px;
   font-size: 1em;
   text-decoration: none;
   color: black;
 }
-.header-section .header-content .nav-bar .nav-number {
+.header-section .header-content .nav-bar ul .nav-number {
   margin-left: 30px;
   font-weight: bold;
   font-size: 1em;
@@ -234,10 +235,12 @@ body {
   flex-direction: column;
   margin-left: 100px;
 }
-.footer-section .footer-content .links a {
-  text-decoration: none;
-  color: #626262;
+.footer-section .footer-content .links li {
   margin-bottom: 10px;
+}
+.footer-section .footer-content .links li a {
+  color: #626262;
+  text-decoration: none;
 }
 .footer-section .footer-content .company-name {
   font-weight: 700;
@@ -250,6 +253,16 @@ body {
   font-size: 1em;
   margin-bottom: 25px;
   line-height: 16px;
+}
+.footer-section .footer-content .form p:first-child {
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+.footer-section .footer-content .form input {
+  border: none;
+  height: 1.6em;
+  margin-bottom: 25px;
 }
 .footer-section .footer-content .form a {
   text-decoration: none;
